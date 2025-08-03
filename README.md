@@ -20,11 +20,12 @@ An AI-powered assistant that automates detection of key dental structures or iss
 
 ##  Features
 
-- ✅ Upload panoramic dental X-ray
-- ✅ Automatically detect up to 10 custom classes
-- ✅ Draw bounding boxes on the image
-- ✅ Enter patient ID and scan date
-- ✅ Download a clean, structured PDF report
+- 📤 Upload panoramic dental X-ray (PNG/JPG)
+- 🔎 Run inference with trained YOLOv8 model
+- 🖼️ See bounding boxes for detected conditions
+- 🧾 Input Patient ID
+- 📥 Download a clean PDF report (date, ID, detections)
+- 🌐 Clean, responsive Gradio interface
 
 ---
 
@@ -35,6 +36,12 @@ An AI-powered assistant that automates detection of key dental structures or iss
 - ReportLab (PDF generation)
 - Python 3.10+
 
----
 
+## 📸 App Preview
+
+| Upload Panel                         | Output + PDF |
+|-------------------------------------|--------------|
+| ![UI](./screenshots/UI.PNG) | ![PDF](./screenshots/pdf.PNG) |
+
+---
 
