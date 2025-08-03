@@ -1,0 +1,8 @@
+# requirements.txt
+torch>=1.13.0
+opencv-python
+gradio>=4.0.0
+reportlab
+numpy
+Pillow
+matplotlib

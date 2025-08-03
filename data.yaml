@@ -1,0 +1,23 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names:
+  - 'Bone Loss'
+  - 'Caries'
+  - 'Crown'
+  - 'Filling'
+  - 'Implant'
+  - 'Missing teeth'
+  - 'Periapical lesion'
+  - 'Root Canal Treatment'
+  - 'Root Piece'
+  - 'impacted tooth'
+
+roboflow:
+  workspace: celldetection-ok5sm
+  project: dental-x-ray-panoramic-dataset
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/celldetection-ok5sm/dental-x-ray-panoramic-dataset/dataset/2
