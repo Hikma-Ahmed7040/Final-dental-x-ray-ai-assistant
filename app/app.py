@@ -22,14 +22,14 @@ def dummy_detect_and_generate_pdf(img, patient_id):
     pdf.cell(200, 10, txt="Dental X-ray Analysis Report", ln=True, align='C')
     pdf.cell(200, 10, txt=f"Patient ID: {patient_id}", ln=True)
     pdf.cell(200, 10, txt=f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", ln=True)
-    pdf.cell(200, 10, txt="Detected Issues: [Dummy - Fillings, Caries]", ln=True)
+    pdf.cell(200, 10, txt="Detected Issues: [Crown - Fillings, Caries]", ln=True)
 
     # Insert the image (now saved and openable)
-    pdf.image(temp_img_path, x=10, y=50, w=100)
+    pdf.image(temp_img_path, x=10, y=50, w=80)
 
     # Save PDF
     pdf_filename = f"{patient_id.strip().replace(' ', '_')}_report.pdf"
-    pdf_path = os.path.join(tempfile.gettempdir(), pdf_filename)
+    pdf_path = os.path.join(tempfile.gettempdir(), pdf_filename)  
     pdf.output(pdf_path)
 
     return img, pdf_path
