@@ -38,10 +38,11 @@ An AI-powered assistant that automates detection of key dental structures or iss
 
 
 ## 📸 App Preview
+## 📸 App Preview
 
-| Upload Panel                         | Output + PDF |
-|-------------------------------------|--------------|
-| ![UI](./screenshots/UI.PNG) | ![PDF](./screenshots/pdf.PNG) |
+| Upload Panel                         | Output + PDF | Detection Screenshot |
+|--------------------------------------|--------------|----------------------|
+| ![UI](./screenshots/UI.PNG) | ![PDF](./screenshots/pdf.png) | ![Detection](./screenshots/Detection.png) |
 
 ---
 
