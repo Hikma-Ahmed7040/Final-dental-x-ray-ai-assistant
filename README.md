@@ -41,5 +41,5 @@ An AI-powered assistant that automates detection of key dental structures or iss
 
 | Upload Panel | Output + PDF | Detection Screenshot |
 |---|---|---|
-| <img src="./screenshots/UI.PNG" width="280"/> | <img src="./screenshots/pdf.png" width="280"/> | <img src="./screenshots/Detection.png" width="280"/> |
+| <img src="./screenshots/UI.PNG" width="280"/> | <img src="./screenshots/report.png" width="280"/> | <img src="./screenshots/Detection.png" width="280"/> |
 
