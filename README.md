@@ -6,7 +6,7 @@ A lightweight, CPU-trained deep learning application that assists dentists by de
 
 ---
 
-## 📌 Problem
+##  Problem
 
 Dental panoramic X-rays contain complex visual structures that are difficult and time-consuming to analyze manually. Dentists often need support identifying anatomical landmarks or dental issues with consistency and speed.
 
@@ -29,7 +29,7 @@ An AI-powered assistant that automates detection of key dental structures or iss
 
 ---
 
-## 🎯 Tech Stack
+##  Tech Stack
 
 - YOLOv8 (PyTorch)
 - Gradio (for web interface)
@@ -38,11 +38,8 @@ An AI-powered assistant that automates detection of key dental structures or iss
 
 
 ## 📸 App Preview
-## 📸 App Preview
 
-| Upload Panel                         | Output + PDF | Detection Screenshot |
-|--------------------------------------|--------------|----------------------|
-| ![UI](./screenshots/UI.PNG) | ![PDF](./screenshots/pdf.png) | ![Detection](./screenshots/Detection.png) |
-
----
+| Upload Panel | Output + PDF | Detection Screenshot |
+|---|---|---|
+| <img src="./screenshots/UI.PNG" width="280"/> | <img src="./screenshots/pdf.png" width="280"/> | <img src="./screenshots/Detection.png" width="280"/> |
 
